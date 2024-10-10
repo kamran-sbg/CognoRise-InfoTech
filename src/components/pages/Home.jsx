@@ -1,110 +1,115 @@
 import React from "react";
-
+import logo from './1243.png'
+import lator from './calcu.png'
+import list from './todolist.png'
+import timers from './stopt.png'
 export const Home = () => {
   return (
     <>
-    <div className="bg-warning">
-      <h1 className="text-center">Services</h1>
-      <div>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem sunt
-        itaque, perferendis necessitatibus corrupti ea magni voluptatibus est
-        ipsa. Nulla praesentium dolore eos alias incidunt, odio et eaque, sunt
-        vitae corporis animi, itaque architecto. Sunt minima nostrum fugiat
-        quibusdam voluptate dolore illo cupiditate quam odio sequi. Consequatur
-        tempora ullam, ipsam molestias dolor dolores tempore. Molestias, error
-        porro tenetur delectus numquam animi aut quod consequuntur? Dolor sequi
-        quisquam ex, eaque explicabo, labore maxime veniam voluptas enim
-        recusandae architecto est voluptates optio libero officiis consectetur
-        possimus voluptate ipsam alias velit veritatis reprehenderit
-        repudiandae. Ullam praesentium inventore minima eius dolorem omnis fugit
-        facilis.
+   <section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+    <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src={logo}/>
+    <div class="text-center lg:w-2/3 w-full">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Muhammad Kamran</h1>
+      <p class="mb-8 leading-relaxed">Hello! I’m currently pursuing a Bachelor’s degree in Computer Science, where I’m diving deep into the world of web development. I specialize in building responsive and dynamic websites using React.js and Tailwind CSS. I’m passionate about creating user-friendly interfaces and enhancing user experiences. Excited to connect and share ideas!.</p>
+    </div>
+  </div>
+</section>
+
+
+<section class="text-gray-600 body-font">
+  <div class="container px-5 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src={lator} alt="blog"/>
+          <div class="p-6">
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Calculator</h1>
+            <p class="leading-relaxed mb-3">this is a basic</p>
+            <div class="flex items-center flex-wrap ">
+              <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>1.2K
+              </span>
+              <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>6
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
-      <br />
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
-        libero laboriosam quia totam, ducimus dolorum velit voluptates ipsam ad
-        labore repellendus! Reprehenderit corporis labore totam est quas natus
-        non quis? Atque porro obcaecati error hic perspiciatis itaque
-        reprehenderit ut aperiam, ipsa, repellendus voluptatum, architecto sint
-        delectus. Dolorem, officia nostrum? Quae similique eveniet, animi
-        laborum impedit commodi, deleniti cum adipisci atque quidem culpa
-        incidunt placeat id rem dolorum sit eligendi sapiente ea sed, voluptate
-        voluptates minima pariatur ipsam delectus. Inventore deserunt
-        exercitationem repudiandae ducimus nihil, assumenda vel ex optio aut
-        voluptates nostrum dolor beatae in voluptatem. Adipisci excepturi
-        nesciunt ab soluta.
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src={list} alt="blog"/>
+          <div class="p-6">
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">TodoList</h1>
+            <p class="leading-relaxed mb-3">In this you can add todolist and also delete</p>
+            <div class="flex items-center flex-wrap">
+              <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>1.2K
+              </span>
+              <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>6
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
-      <br />
-      <div>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aut a,
-        expedita quaerat, facere iste earum deserunt numquam dignissimos
-        obcaecati voluptatem repellendus nemo eveniet corporis esse voluptatibus
-        facilis laboriosam natus quam sapiente ipsum ipsa, repudiandae qui
-        alias. Ut inventore commodi quae ea excepturi, soluta distinctio
-        laboriosam cum voluptatem consectetur cupiditate neque eius esse placeat
-        consequatur assumenda, unde atque nemo modi perferendis? Saepe
-        molestiae, earum at dicta sit iusto dignissimos vero voluptate voluptas
-        qui ullam molestias omnis cupiditate dolores sunt incidunt ab nisi eaque
-        culpa dolorum? Provident eos doloribus soluta maxime obcaecati quam, a,
-        quod blanditiis dolores odit aliquid quis distinctio.
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src={timers} alt="blog"/>
+          <div class="p-6">
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Timer StopWatch</h1>
+            <p class="leading-relaxed mb-3">In this you can set timer int the sequence of houre mintue and second</p>
+            <div class="flex items-center flex-wrap ">
+              <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>1.2K
+              </span>
+              <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>6
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
-      <br />
-      <div>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aut a,
-        expedita quaerat, facere iste earum deserunt numquam dignissimos
-        obcaecati voluptatem repellendus nemo eveniet corporis esse voluptatibus
-        facilis laboriosam natus quam sapiente ipsum ipsa, repudiandae qui
-        alias. Ut inventore commodi quae ea excepturi, soluta distinctio
-        laboriosam cum voluptatem consectetur cupiditate neque eius esse placeat
-        consequatur assumenda, unde atque nemo modi perferendis? Saepe
-        molestiae, earum at dicta sit iusto dignissimos vero voluptate voluptas
-        qui ullam molestias omnis cupiditate dolores sunt incidunt ab nisi eaque
-        culpa dolorum? Provident eos doloribus soluta maxime obcaecati quam, a,
-        quod blanditiis dolores odit aliquid quis distinctio.
-      </div>
-      <br />
-      <div>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aut a,
-        expedita quaerat, facere iste earum deserunt numquam dignissimos
-        obcaecati voluptatem repellendus nemo eveniet corporis esse voluptatibus
-        facilis laboriosam natus quam sapiente ipsum ipsa, repudiandae qui
-        alias. Ut inventore commodi quae ea excepturi, soluta distinctio
-        laboriosam cum voluptatem consectetur cupiditate neque eius esse placeat
-        consequatur assumenda, unde atque nemo modi perferendis? Saepe
-        molestiae, earum at dicta sit iusto dignissimos vero voluptate voluptas
-        qui ullam molestias omnis cupiditate dolores sunt incidunt ab nisi eaque
-        culpa dolorum? Provident eos doloribus soluta maxime obcaecati quam, a,
-        quod blanditiis dolores odit aliquid quis distinctio.
-      </div>
-      <br />
-      <div>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aut a,
-        expedita quaerat, facere iste earum deserunt numquam dignissimos
-        obcaecati voluptatem repellendus nemo eveniet corporis esse voluptatibus
-        facilis laboriosam natus quam sapiente ipsum ipsa, repudiandae qui
-        alias. Ut inventore commodi quae ea excepturi, soluta distinctio
-        laboriosam cum voluptatem consectetur cupiditate neque eius esse placeat
-        consequatur assumenda, unde atque nemo modi perferendis? Saepe
-        molestiae, earum at dicta sit iusto dignissimos vero voluptate voluptas
-        qui ullam molestias omnis cupiditate dolores sunt incidunt ab nisi eaque
-        culpa dolorum? Provident eos doloribus soluta maxime obcaecati quam, a,
-        quod blanditiis dolores odit aliquid quis distinctio.
-      </div>
-      <br />
-      <div>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aut a,
-        expedita quaerat, facere iste earum deserunt numquam dignissimos
-        obcaecati voluptatem repellendus nemo eveniet corporis esse voluptatibus
-        facilis laboriosam natus quam sapiente ipsum ipsa, repudiandae qui
-        alias. Ut inventore commodi quae ea excepturi, soluta distinctio
-        laboriosam cum voluptatem consectetur cupiditate neque eius esse placeat
-        consequatur assumenda, unde atque nemo modi perferendis? Saepe
-        molestiae, earum at dicta sit iusto dignissimos vero voluptate voluptas
-        qui ullam molestias omnis cupiditate dolores sunt incidunt ab nisi eaque
-        culpa dolorum? Provident eos doloribus soluta maxime obcaecati quam, a,
-        quod blanditiis dolores odit aliquid quis distinctio.
-      </div>
-      </div>
+    </div>
+  </div>
+</section>
     </>
   );
 };
