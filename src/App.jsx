@@ -15,11 +15,9 @@ function App() {
         <Route path="/calculator" element={<About />} />
         <Route path="/todolist" element={<Services />} />
         <Route path="/timer" element={<Contact />} />
-        <Route path="/Privacy" element={<Privacy />} />
-        <Route path="/About" element={<Aboutus/>} />
-        <Route path="/Contect" element={<Contectus/>} />
-
-
+        <Route path="/Privacy-Policy" element={<Privacy />} />
+        <Route path="/About-Us" element={<Aboutus/>} />
+        <Route path="/Contect-Us" element={<Contectus/>} />
       </Routes>
       <Footer/>
     </div>

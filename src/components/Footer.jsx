@@ -9,9 +9,9 @@ const Footer = () => {
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
         <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
         <div class="list-none mb-10 flex flex-col space-y-3">
-        <NavLink to="/Contect">Contact Us</NavLink>
-        <NavLink to="/About">About Us</NavLink>
-        <NavLink to="/Privacy">Privacy policy</NavLink>
+        <NavLink to="/Contect-Us">Contact Us</NavLink>
+        <NavLink to="/About-Us">About Us</NavLink>
+        <NavLink to="/Privacy-Policy">Privacy policy</NavLink>
         </div>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
