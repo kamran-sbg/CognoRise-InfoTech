@@ -68,7 +68,7 @@ export const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col items-center mt-[7%] h-screen bg-gray-100">
+    <div className="flex flex-col items-center pt-[7%] h-screen bg-gray-100">
       <div className="flex space-x-2 mb-4">
         <input
           disabled={isRunning}
