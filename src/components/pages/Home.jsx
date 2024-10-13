@@ -3,6 +3,8 @@ import logo from './1243.png'
 import lator from './calcu.png'
 import list from './todolist.png'
 import timers from './stopt.png'
+import { Outlet } from "react-router-dom";
+
 export const Home = () => {
   return (
     <>
@@ -110,6 +112,7 @@ export const Home = () => {
     </div>
   </div>
 </section>
+<Outlet/>
     </>
   );
 };
