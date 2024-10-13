@@ -18,7 +18,7 @@ export const Navbar = () => {
       </div>
       <ul className={menuOpen ? "open" : ""}>
         <li>
-          <a href="/calculator">Calculator</a>
+          <NavLink to={'calculator'}>Calculator</NavLink>
         </li>
         <li>
           <NavLink to="/todolist">TodoList</NavLink>
