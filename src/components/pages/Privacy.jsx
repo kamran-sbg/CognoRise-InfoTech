@@ -15,8 +15,8 @@ const Privacy = () => {
         <p class="mb-4">
             We may collect personal information from you when you use our site, including but not limited to:
             <ul class="list-disc list-inside mb-4">
-                <li>Your name</li>
-                <li>Your email address</li>
+                <li>Muhammad Kamran</li>
+                <li>kamranirshadsb@gmail.com</li>
                 <li>Any other information you provide to us voluntarily</li>
             </ul>
         </p>
