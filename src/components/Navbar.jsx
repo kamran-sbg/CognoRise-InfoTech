@@ -1,14 +1,17 @@
 import React, { useState } from "react";
-
 import "./Navbar.css";
 import { Link, NavLink } from "react-router-dom";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const handleNavClick = () => {
+    setMenuOpen(false); // Close the menu on navigation
+  };
+
   return (
     <nav>
-      <Link to="/" className="title">
+      <Link to="/" className="title" onClick={handleNavClick}>
         Kamran
       </Link>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
@@ -18,13 +21,19 @@ export const Navbar = () => {
       </div>
       <ul className={menuOpen ? "open" : ""}>
         <li>
-          <NavLink to={'calculator'}>Calculator</NavLink>
+          <NavLink to="/calculator" onClick={handleNavClick}>
+            Calculator
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/todolist">TodoList</NavLink>
+          <NavLink to="/todolist" onClick={handleNavClick}>
+            TodoList
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/timer">Timer</NavLink>
+          <NavLink to="/timer" onClick={handleNavClick}>
+            Timer
+          </NavLink>
         </li>
       </ul>
     </nav>
