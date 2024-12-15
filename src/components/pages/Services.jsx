@@ -27,7 +27,7 @@ export const Services = ({ value }) => {
           <h6 className="font-bold text-md uppercase">{t.description}</h6>
           <button
             onClick={() => deleteHandler(i)}
-            className="bg-red-500 text-white rounded-md px-3 py-1"
+            className="bg-red-500 text-white rounded-md px-3 m-2 py-1"
           >
             Delete
           </button>
@@ -45,6 +45,7 @@ export const Services = ({ value }) => {
             className="border-3 border-black rounded-full p-2"
             placeholder="Enter Your Todo"
             value={title}
+            required
             onChange={(e) => setTitle(e.target.value)}
           />
           <input
@@ -52,6 +53,7 @@ export const Services = ({ value }) => {
             className="border-3 border-black rounded-full p-2"
             placeholder="Enter The Description"
             value={description}
+            required
             onChange={(e) => setDescription(e.target.value)}
           />
           <button className="bg-yellow-500 text-white rounded-md py-2">
