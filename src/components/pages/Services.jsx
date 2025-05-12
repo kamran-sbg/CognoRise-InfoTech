@@ -24,10 +24,10 @@ export const Services = ({ value }) => {
       <li key={i} className="font-bold ms-3 text-lg">
         <div className="flex justify-between items-center">
           <h5 className="font-bold text-lg capitalize">{t.title}</h5>
-          <h6 className="font-bold text-md uppercase">{t.description}</h6>
+          <h6 className="">{t.description}</h6>
           <button
             onClick={() => deleteHandler(i)}
-            className="bg-red-500 text-white rounded-md px-3 m-2 py-1"
+            className="bg-red-500 text-white rounded-md px-3 my-1 py-1"
           >
             Delete
           </button>
