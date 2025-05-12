@@ -120,7 +120,14 @@ export const Contact = () => {
             Reset
           </button>
         </div>
-        <div></div>
+        <div>
+          <script
+            async="async"
+            data-cfasync="false"
+            src="//pl26621408.profitableratecpm.com/5862a7f65496564e5e4a783c2cfaf14b/invoke.js"
+          ></script>
+          <div id="container-5862a7f65496564e5e4a783c2cfaf14b"></div>
+        </div>
       </div>
     </>
   );
