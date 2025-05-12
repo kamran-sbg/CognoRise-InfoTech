@@ -128,6 +128,16 @@ export const Contact = () => {
           ></script>
           <div id="container-5862a7f65496564e5e4a783c2cfaf14b"></div>
         </div>
+        <div className="mt-3 bg-orange-400 p-2 rounded-lg">
+          <a
+            href="https://www.profitableratecpm.com/idxk6r07z?key=43cde222084af58449c577043eecc9a1"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+          >
+            adsterra ad
+          </a>
+        </div>
       </div>
     </>
   );
